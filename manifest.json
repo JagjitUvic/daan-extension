@@ -1,5 +1,5 @@
 {
-  "manifest_version": "2.1",
+  "manifest_version": 2,
   "name": "Daan",
   "description": "This extension allows the user to understand the environmental impact of his purchase and gives suggested donations.",
   "version": "1.0",
