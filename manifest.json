@@ -1,0 +1,15 @@
+{
+  "manifest_version": "2.1",
+  "name": "Daan",
+  "description": "This extension allows the user to understand the environmental impact of his purchase and gives suggested donations.",
+  "version": "1.0",
+  "browser_action": {
+    "default_title": "Daan",
+    "default_icon": "Daan.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
