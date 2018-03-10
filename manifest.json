@@ -8,8 +8,16 @@
     "default_icon": "Daan.png",
     "default_popup": "popup.html"
   },
+  "icons": {
+    "16": "assets/search.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "contextMenus", 
+    "tabs"
   ]
 }
