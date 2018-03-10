@@ -9,7 +9,7 @@
     "default_popup": "popup.html"
   },
   "icons": {
-    "16": "assets/search.png"
+    "16": "Daan.png"
   },
   "background": {
     "page": "background.html"
@@ -17,7 +17,7 @@
   "permissions": [
     "activeTab",
     "storage",
-    "contextMenus", 
+    "contextMenus",
     "tabs"
   ]
 }

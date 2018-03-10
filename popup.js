@@ -18,3 +18,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }, false);
 }, false);
+searchUrbanDict = function(word){
+  var query = word.selectionText;
+  chrome.tabs.create({url: "http://www.urbandictionary.com/define.php?term=" + query});
+};
+
+chrome.contextMenus.create({
+  title: "Look for Right Donations",
+  contexts:["selection"],
+  onclick: searchUrbanDict
+});
