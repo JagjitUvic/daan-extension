@@ -10,7 +10,6 @@ chrome.runtime.onInstalled.addListener(function() {
 //function to send search and load lightbox
 function contextClicked(info, tab) {
     //call the request function
-    //sendRequest(info);
     if (info.menuItemId == "donation") {
         chrome.tabs.query({
             active: true,
@@ -26,8 +25,3 @@ function contextClicked(info, tab) {
 
 //Instruct Chrome to launch a particular function when context menu items are clicked.
 chrome.contextMenus.onClicked.addListener(contextClicked);
-
-//send request for donation sugesstions
-function sendRequest(info) {
-
-}
