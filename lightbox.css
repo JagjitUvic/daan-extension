@@ -23,5 +23,40 @@
     background-color:white;
     z-index:1001;
     padding:50px;
+    border-radius:30px;
 
+}
+
+#lightbox_don1 {
+
+  float:left;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+#lightbox_don2 {
+
+  float:left;
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+#lightbox_don0 {
+
+  float:left;
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
 }

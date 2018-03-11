@@ -1,30 +1,28 @@
 {
-  "manifest_version": 2,
+    "manifest_version": 2,
 
-  "name": "Daan Extension",
-  "description": "We will provide you with feedback on your items with respect to its environemntal impact and suggest donations.",
-  "version": "1.0",
+    "name": "Daan Extension",
+    "description": "We will provide you with feedback on your items with respect to its environemntal impact and suggest donations.",
+    "version": "1.0",
 
-  "permissions": [
-	"contextMenus",
+    "permissions": [
+        "contextMenus",
         "<all_urls>",
         "tabs"
-  ],
-  "background": {
-    "scripts": ["context-menu.js"]
-  },
-  "icons": {
-    "16": "asset/icon16.png",
-    "48": "asset/icon48.png",
-    "128": "asset/icon128.png"
-  },
-   "content_scripts": [
-   {
-     "matches": ["<all_urls>"],
-     "js": ["lightbox.js"],
-     "css": ["lightbox.css"],
-     "all_frames": false
-   }
- ]
+    ],
+    "background": {
+        "scripts": ["context-menu.js"]
+    },
+    "icons": {
+        "16": "asset/icon16.png",
+        "48": "asset/icon48.png",
+        "128": "asset/icon128.png"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["lightbox.js"],
+        "css": ["lightbox.css"],
+        "all_frames": false
+    }]
 
 }
