@@ -1,23 +1,25 @@
 {
   "manifest_version": 2,
-  "name": "Daan",
-  "description": "This extension allows the user to understand the environmental impact of his purchase and gives suggested donations.",
+
+  "name": "Daan Extension",
+  "description": "We're going to give a new direction to your donations",
   "version": "1.0",
-  "browser_action": {
-    "default_title": "Daan",
-    "default_icon": "Daan.png",
-    "default_popup": "popup.html"
-  },
-  "icons": {
-    "16": "Daan.png"
-  },
-  "background": {
-    "page": "background.html"
-  },
+
   "permissions": [
-    "activeTab",
-    "storage",
-    "contextMenus",
-    "tabs"
-  ]
+	"contextMenus",
+        "<all_urls>",
+        "tabs"
+  ],
+  "background": {
+    "scripts": ["context-menu.js"]
+  },
+   "content_scripts": [
+   {
+     "matches": ["<all_urls>"],
+     "js": ["lightbox.js"],
+     "css": ["lightbox.css"],
+     "all_frames": false
+   }
+ ]
+
 }

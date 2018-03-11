@@ -1,8 +1,22 @@
 {
-  "description":"The prroduct you select has 34 in carbon foot print unit and 43% emission value, this means that the calculated donations are following with reference to the website.",
-  "donation": [
-    { "name":"Save the Children","image":"https://pbs.twimg.com/profile_images/958278561303089152/WhjVRlcq_400x400.jpg", "amount":5, "link":"https://www.savethechildren.ca/"},
-    { "name":"Common Ground","image":"https://s3.amazonaws.com/globaljobs.org/jobs/logos/000/015/559/original/Search_for_Common_Ground.png?1520649691", "amount":15, "link":"http://commonground.ca/"},
-    { "name":"Bare Foot College","image":"https://www.barefootcollege.org/wp-content/themes/barefoot/images/about/barefoot-international.jpg", "amount":10, "link":"https://www.barefootcollege.org/"}
-  ]
+	"description": "The prroduct you select has 34 in carbon foot print unit and 43% emission value, this means that the calculated donations are following with reference to the website.",
+	"donation": [{
+			"name": "Save the Children",
+			"image": "https://pbs.twimg.com/profile_images/958278561303089152/WhjVRlcq_400x400.jpg",
+			"amount": 5,
+			"link": "https://www.savethechildren.ca/"
+		},
+		{
+			"name": "Common Ground",
+			"image": "https://s3.amazonaws.com/globaljobs.org/jobs/logos/000/015/559/original/Search_for_Common_Ground.png?1520649691",
+			"amount": 15,
+			"link": "http://commonground.ca/"
+		},
+		{
+			"name": "Bare Foot College",
+			"image": "https://www.barefootcollege.org/wp-content/themes/barefoot/images/about/barefoot-international.jpg",
+			"amount": 10,
+			"link": "https://www.barefootcollege.org/"
+		}
+	]
 }
